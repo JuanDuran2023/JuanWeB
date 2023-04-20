@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="text-verde">
+        <h5>Nueva clave</h5>
+    </div>
+    <div class="row-12" id="contener">
+        <div class="col-12" id="text">
+            <h3>Ingrese su nueva contraseña</h3>
+        </div>
+        
+        <div class="row-12" id="correo">
+            <div class=" col-6 " id="icono">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-floating col-10 " >
+                    <input type="email"  class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Correo electrónico</label>       
+            </div>
+        </div>
+        <div class="row-12" id="correo2">
+            <div class="col-6" id="icono">
+                <i class="fas fa-key"></i>
+            </div>
+
+            <div class="form-floating col-10" >
+                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Contraseña</label>
+            </div>
+        </div>
+        <div class="row-12" id="correo2">
+            <div class="col-6" id="icono">
+                <i class="fas fa-key"></i>
+            </div>
+
+            <div class="form-floating col-10" >
+                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Confirmar contraseña</label>
+            </div>
+        </div>
+        <div class="captcha">
+            <mat-checkbox class="example-margin" color="white">No soy un robot
+                
+            </mat-checkbox>
+            <div class="imgcaptcha">
+                <img src="assets/images/capthca.png" alt="">
+            </div>
+        </div>
+        
+        <div class="crear2">
+            <button (click)="navegar()" mat-flat-button class="color3">Confirmar</button>
+            
+        </div>
+        
+    </div>
+</div>

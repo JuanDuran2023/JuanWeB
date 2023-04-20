@@ -1,0 +1,195 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: 'Roboto',sans-serif;
+}
+
+/**********************************  Menu    **********************/////
+.buscar{
+
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    margin-top: 5%;
+}
+.cuadro{
+    
+    border-radius: 50%;
+    width: 50%;
+    height: 70px;
+    font-size: 15px;
+    
+    
+}
+.trabajo{
+    position: relative;
+    right: 50px;
+    .search{
+        
+        position: absolute;
+        width: 125px;
+        height: 50px;
+        border-radius: 33px 15px 15px 33px;
+        font-size: 25px;
+        background-color: #005C53;
+        color: white;
+        border: none;
+    }
+}
+
+
+.customimghome{
+    position: absolute;    
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 0%;
+    border: 1px black solid;
+    background-image: url(assets/images/home.png) ;
+    background-size: cover;
+    background-color: rgba(78, 78, 78, 0.288);
+    background-blend-mode: soft-light;
+}
+
+
+
+
+
+
+
+
+/**********************************  BUSQUEDA  **********************/////
+.buscar2{
+
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    margin-top: 5%;
+   
+    width: 100%;
+    height: 100%;
+}
+.cuadro2{
+    
+    border-radius: 50%;
+    width: 50%;
+    height: 70px;
+    font-size: 15px;
+    
+    
+}
+.trabajo2{
+    position: relative;
+    right: 50px;
+    .search{
+        
+        position: absolute;
+        width: 125px;
+        height: 50px;
+        border-radius: 33px 15px 15px 33px;
+        font-size: 25px;
+        background-color: #005C53;
+        color: white;
+        border: none;
+    }
+}
+
+
+
+
+
+
+
+
+.customimagebusqueda{
+
+    position: absolute;    
+    
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 30%;
+    border: 1px black solid;
+    background-image: url(assets/images/buscar.jpg) ;
+    background-size: cover;
+    background-color: rgba(78, 78, 78, 0.288);
+    background-blend-mode: soft-light;
+}
+
+
+
+
+/**********************************  CV **********************/////
+
+
+
+
+.imgCv{
+    position: absolute;    
+    width: 35%;
+    left: 0%;
+    height: 100%;
+    top: 0%;
+    border: 1px black solid;
+    background-image: url(assets/images/cv.jpg) ;
+    background-size: cover;
+    background-color: rgba(78, 78, 78, 0.288);
+    background-blend-mode: soft-light;
+}
+
+/********FONDO PERFIL****/////
+
+
+.fondoimg{
+
+    position: absolute;    
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 0%;
+    border: 1px black solid;
+    background-image: url(assets/images/perfil.png) ;
+    background-size: cover;
+    background-color: rgba(78, 78, 78, 0.288);
+    background-blend-mode: soft-light;
+    
+    
+}
+
+.fondoimg2{
+
+    position: absolute;    
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 0%;
+    border: 1px black solid;
+    background-image: url(assets/images/test.png) ;
+    background-size: cover;
+    background-color: rgba(78, 78, 78, 0.288);
+    background-blend-mode: soft-light;
+    
+    
+}
+.imgvoz{
+    background-color: rgba(78, 78, 78, 0.288);
+    width: 475px;
+    height: 100%;
+    top: 0%;
+    background-image:url(assets/images/voz.png);
+    border: 0.5px black solid;
+    position: absolute;
+    margin-left: 71.5%;
+    background-size: cover;
+    background-blend-mode: soft-light;
+
+  
+}
+

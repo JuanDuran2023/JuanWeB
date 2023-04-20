@@ -1,0 +1,55 @@
+.tarjeta{
+    
+    display: grid;
+    place-content: center;
+    
+    border-radius: 2%;
+    margin-top: 12%;
+    margin-left: 32%;
+    width: 40%;
+    height: 60%;
+    
+    background-color: #042940;
+}
+.tarjeta h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.tarjeta p{
+    color: white;
+    
+
+}
+.parrafos{
+
+    margin-left: 12%;
+    justify-content: center;
+    width: 75%;
+}
+.btnstest{
+    width: 50%;
+    padding-top: 5%;
+    margin-left: 25%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.color3{
+    background-color: #9FC131;
+    width: 130px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-size: 14px;
+}
+.color4{
+    background-color:#F5F5F5;
+    width: 130px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-size: 14px;
+}

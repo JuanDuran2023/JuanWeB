@@ -1,0 +1,104 @@
+<div class="fondoimg">
+  
+    <div class="circulo">
+        <i class="fas fa-user"></i>
+    </div>
+    <h5>Registro por texto</h5>
+
+    <div class="perfil">
+        <div class="correo">
+            
+            <div class="icons">
+                
+                <mat-form-field class="intcorreo">
+                    
+                    <mat-label>Nombre(s)</mat-label>
+                
+                    <input matInput placeholder="Nombre(s)" value="">
+          
+                </mat-form-field>
+                <div class="icono1">
+                    <i class="fas fa-user"></i>
+                </div>
+               
+        
+            </div>
+            <div class="icons">
+                <mat-form-field class="intcorreo">
+                    <mat-label>Apellido(s)</mat-label>
+                    <input matInput placeholder="Apellido(s)" value="">
+                </mat-form-field>
+                <div class="icono1">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="icons">
+
+                <mat-form-field class="intcorreo">
+                    <mat-label>Correo electronico</mat-label>
+                    <input matInput placeholder="Correo" value="">    
+                </mat-form-field>
+                <div class="icono1">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+            </div>
+            <div class="icons">
+            
+                <mat-form-field appearance="fill" class="intcorreo">
+                    <mat-label>Contraseña</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">   
+                    </button>
+                </mat-form-field>
+                <div class="icono1">
+                    <i class="fas fa-key"></i>
+                </div>
+            </div>
+            <div class="icons">
+                <mat-form-field appearance="fill" class="intcorreo">
+                    <mat-label>Confirmar contraseña</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">   
+                    </button>
+                </mat-form-field>
+                <div class="icono1">
+                    <i class="fas fa-key"></i>
+                </div>
+
+            </div>
+            <div class="icons">
+            
+                <mat-form-field class="intcorreo">
+                        <mat-label>Ingresé su país</mat-label>
+                        <input matInput placeholder="País" value="">
+                
+                </mat-form-field>
+                <div class="icono1">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+
+            </div>
+
+            <div class="captcha">
+                <mat-checkbox class="example-margin" color="white">No soy un robot
+                    
+                </mat-checkbox>
+                <div class="imgcaptcha">
+                    <img src="assets/images/capthca.png" alt="">
+                </div>
+            </div>
+            <div class="crear2">
+                <button (click)="navegar()" mat-flat-button class="color3">Cancelar</button>
+                <button (click)="navegar2()" mat-flat-button class="color3">Validar</button>
+
+            </div>
+            
+        
+           
+            
+    
+
+    </div>
+
+</div>

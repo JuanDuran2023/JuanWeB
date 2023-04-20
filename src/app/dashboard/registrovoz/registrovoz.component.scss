@@ -1,0 +1,101 @@
+.fondo{
+    background-color: white;
+    width: 75%;
+    position: absolute;    
+    left: 0%;
+    height: 100%;
+    top: 0%;
+}
+
+.fondo-blanco{
+    margin-top: 85px;
+    margin-left: 140px;
+    
+    width: 65%;
+    
+}
+.text-verde{
+    background-color: #9FC131;
+    width: 239px;
+    height: 45px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+.tarjeta{
+    background-color: #042940;
+    height: 339px;
+    padding-top: 39px;
+    
+    border-radius: 0 30px 30px 30px;
+
+}
+
+.tarjeta h3{
+    color: white;
+    margin-left: 61px;
+    font-size: 24px;
+   
+}
+.tarjeta p{
+    color: white;
+    margin-left: 61px;
+    margin-top: 25px;
+    margin-right: 61px;
+}
+.tarjeta2{
+    background-color: #042940;
+    margin-top: 80px;
+    border-radius: 30px;
+    height: 339px;
+    padding-top: 39px;
+    
+    
+
+}
+.tarjeta2 h3{
+    color: white;
+    margin-left: 61px;
+    font-size: 24px;
+
+}
+.tarjeta2 p{
+    color: white;
+    margin-left: 61px;
+    margin-right: 61px;
+    margin-top: 25px;
+}
+.crear2{
+    display:flex;
+    justify-content: center;
+    margin-top: 69px;
+    place-content: center;
+}
+.color3{
+    background-color:  #9FC131;
+    width: 130px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    margin: 30px;
+}
+.color4{
+    background-color:white;
+    
+    width: 130px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    color: #042940;
+    font-size: 14px;
+    margin: 30px;
+}
+
+.voz{
+    display: flex;
+}

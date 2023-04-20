@@ -1,0 +1,62 @@
+h1{
+    color: #042940;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.row{
+    position: relative;
+    left: 0.8%;
+    width: 95%;
+    height: 85%;
+    margin-top: 8%;
+    padding-top: 2%;
+    background-color: #042940;
+    border-radius: 0 30px 30px 30px;;
+    
+    
+   
+
+}
+.card{
+    position: relative;
+    padding-top: 2%;
+    left: 18%;
+    align-items: center;
+    
+    border: 2px black solid;
+    width: 75%;
+    height: 95%;
+    
+}
+.card h2{
+    font-size: 16px;
+    text-align: center;
+    
+}
+.btn-doc{
+    
+    font-size: 30px;
+    margin-top: 1.2%;
+    color: white;
+    background: #9FC131;
+    border-radius:15px 15px 2px 2px;
+    height: 45px;
+    margin-left: 2.7%;
+    width: 5%;
+    border: none;
+    
+}
+.card p{
+
+    margin-left: 6% ;
+    margin-right: 6%;
+}
+.fondo{
+    background-color: white;
+    width: 100%;
+    position: absolute;    
+    left: 0%;
+    height: 100%;
+    top: 0%;
+}

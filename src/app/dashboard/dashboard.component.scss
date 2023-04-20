@@ -1,0 +1,137 @@
+.perfil{
+    display: flex;
+    
+    
+    border-radius: 2%;
+    margin-top: 12%;
+    margin-left: 32%;
+    width: 30%;
+    height: 60%;
+    
+    background-color: #042940;
+}
+.circulo{
+    position: absolute;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    margin-left: 42.6%;
+    margin-top: 8%;
+    width: 8%;
+    border-radius: 600px;
+    height: 15%;
+    background-color:  #005C53;
+    font-size: 65px;
+    color: white;
+}
+.correo{
+    display: grid;
+    place-content: center;
+    margin-top: 32%;
+    margin-left: 5%;
+    height: 50%;
+   
+
+}
+.intcorreo{
+    border: #005C53 2px;
+    text-decoration: none;
+    color:black;
+    width: 500px;
+    
+    
+}
+.iconcorreo{
+    position: absolute;
+    font-size: 24px;
+    margin-top: -2.6%;
+    margin-left: 25%;
+    color: #005C53;
+    
+}
+.intcorreo2{
+    
+    border: #005C53 2px;
+    text-decoration: none;
+    color:black;
+    width: 500px;
+    
+    
+}
+.iconcorreo2{
+    position: absolute;
+    font-size: 24px;
+    margin-top: 1.5%;
+    margin-left: 25%;
+    color: #005C53;
+    
+}
+.txtbox{
+    width: 50%;
+    height: 50%;
+}
+.rr{
+    position: absolute;
+    margin-top: 6%;
+    padding-left: 2%;
+    
+    color: white;
+}
+.btnrecuperar{
+
+    padding-top: 3%;
+    
+}
+.color{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btnrecuperar2{
+
+    display: grid;
+    place-content: center;
+    margin-top: 5%;
+}
+    
+.color2{
+    background-color: white;
+    width: 130px;
+    height: 42px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-size: 16px;
+}
+.crear{
+    margin-top: 5%;
+
+    
+    width: 100%;
+    height: 100%;
+    display: grid;
+    color: white;
+    
+    place-content: center;
+
+}
+
+.crear p{
+    font-size: 16px;
+    text-align: center;
+}
+.crear2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.color3{
+    background-color:  #9FC131;
+
+    width: 91px;
+    height: 22px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-size: 14px;
+}

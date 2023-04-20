@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+
+
+}
+.buscar3{
+
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    
+   
+    width: 100%;
+    height: 100%;
+}
+.cuadro3{
+    
+    border-radius: 50%;
+    width: 950px;
+    height: 70px;
+    font-size: 15px;
+
+}
+.trabajo3{
+    position: relative;
+    right: 50px;
+    .search{
+        
+        position: absolute;
+        width: 125px;
+        height: 50px;
+        border-radius: 33px 15px 15px 33px;
+        font-size: 25px;
+        background-color: #005C53;
+        color: white;
+        border: none;
+    }
+}
+.card{
+    width: 1271px;
+    height: 691px;
+    background-color: #F5F5F5;
+    border-radius: 0 33px 33px 33px ;
+    
+}
+.text-verde{
+    margin-top: 40px;
+    background-color: #9FC131;
+    width: 182px;
+    height: 45px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+#text{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#text h3{
+    font-size: 33px;
+    color: #0E0E0E;
+}
+#text p{
+    font-size: 20px;
+}
+#text2 {
+    margin-left: 25px;
+    margin-top: 75px;
+}
+#text2 p{
+
+    font-size: 16px;
+}
+#canavis{
+    margin-left: 88px;
+}
+.crear2{
+    display: flex;
+    justify-content: center;
+    
+}
+.color3{
+    background-color:  #D9D9D9;
+
+    width: 349px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    color: #042940;
+    font-size: 20px;
+    margin: 59px;
+}
+.color4{
+    background-color:  #9FC131;
+    width: 349px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    color: #042940;
+    font-size: 20px;
+    margin: 59px;
+}

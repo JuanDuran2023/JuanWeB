@@ -1,0 +1,162 @@
+h3{
+    padding-top: 3%;
+    margin-left: 1%;
+}
+.mat-mdc-table {
+    width: 45%;
+    max-height: 500px;
+    overflow: auto;
+  }
+  
+  .mat-column-name {
+    height: 100px;
+    
+  }
+  .table{
+    max-height: 600px;
+    overflow-y: scroll;
+    width: 85%;
+    margin: 20px;
+  }
+
+  h3{
+    color: white;
+    font-size: 32px;
+  }
+  
+  .btnnoti{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .botones{
+    margin-top: 5%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .btnarriba{
+    
+    background-color: #005C53;
+    width: 254px;
+    height: 38px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    
+    
+  }
+  
+  .row h4{
+    
+    margin: 0;
+    border:15%;
+    color: white;
+    text-align: center;
+    padding-top: 0.5%;
+    font-size: 20px;
+
+  }
+  .text{
+    width: 15%;
+    height: 8%;
+
+    padding-top: 0.5%;
+    background-color: #9FC131;
+    border-radius: 12px 12px 0 0;
+  }
+
+.text-verde{
+    background-color: #9FC131;
+    width: 182px;
+    height: 45px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    color: white;
+    
+}
+.tarjeta{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+  
+}
+.card{
+  width: 1379px;
+  height: 612px;
+  background-color: #F5F5F5;
+  border-radius: 0 33px 33px 33px ;
+  
+  overflow: auto;
+}
+.card::-webkit-scrollbar{
+  width: 8px;
+  
+
+}
+.card::-webkit-scrollbar-thumb{
+  
+  background-color: #656565;
+  border-radius: 5px;
+  
+  
+}
+.btn-primary:hover{
+  background-color: rgba(214, 213, 142, 0.95);
+}
+.btn-primary{
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 0%;
+  width: 1175px;
+  height: 57px;
+  
+  display: flex;
+  justify-content: space-between;
+  place-content: center;
+}
+.btn-primary h3{
+  color: #0E0E0E;
+  font-size: 16px;
+  margin-right: 96px;
+  margin-top: 10px;
+}
+.btn-primary p{
+  color: #0E0E0E;
+  font-size: 16px;
+  margin: 15px;
+  
+}
+.btn-primary i{
+  font-size: 20px;
+  margin-top: 15px;
+  color: #0E0E0E;
+}
+.iconos{
+  background-color:#D9D9D9 ;
+  width: 76px;
+  height: 56px;
+  
+}
+.iconos h6{
+  text-align: center;
+  position: relative;
+  margin-top: -25px;
+  
+  
+}
+.icono i{
+  color: black;
+  font-size: 25px;
+  display: grid;
+  place-content: center;
+  padding-top: 15px;
+  
+}
+
+
