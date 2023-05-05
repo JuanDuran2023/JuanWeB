@@ -43,6 +43,8 @@ import { RechazadoComponent } from './notificaciones/rechazado/rechazado.compone
 import { PersonalidadComponent } from './test/personalidad/personalidad.component';
 import { ResultadosComponent } from './test/resultados/resultados.component';
 import { ModalunoComponent } from './documentos/modaluno/modaluno.component';
+import { ModaldosComponent } from './documentos/modaldos/modaldos.component';
+
 
 
 
@@ -80,6 +82,7 @@ import { ModalunoComponent } from './documentos/modaluno/modaluno.component';
     PersonalidadComponent,
     ResultadosComponent,
     ModalunoComponent,
+    ModaldosComponent,
  
     
   ],

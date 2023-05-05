@@ -1,3 +1,4 @@
+import { ModaldosComponent } from './modaldos/modaldos.component';
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ModalunoComponent } from './modaluno/modaluno.component';
@@ -15,6 +16,9 @@ export class DocumentosComponent  {
 
   openDialog(){
     this.dialogoref.open(ModalunoComponent);
+  }
+  openDialogdos(){
+    this.dialogoref.open(ModaldosComponent);
   }
   
   
